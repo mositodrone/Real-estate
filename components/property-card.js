@@ -11,12 +11,12 @@ const PropertyCard = ({ imgUrl, name, price }) => {
       />
       <div className="flex flex-row items-start justify-start p-2.5">
         <div className="flex-1 relative leading-[20.32px] font-medium">
-          92 ALLIUM PLACE, ORLANDO FL 32827
+          {name}
         </div>
       </div>
       <div className="self-stretch flex flex-row items-start justify-start p-2.5 text-[13.55px] text-primary-500">
         <div className="relative leading-[18.98px] font-semibold">
-          $ 590,693
+          $ {price}
         </div>
       </div>
       <div className="self-stretch flex flex-row items-start justify-start py-0 px-2.5 gap-[17px] text-[10.84px] text-gray-500">

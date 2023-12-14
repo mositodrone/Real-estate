@@ -17,15 +17,23 @@ const RentPropertiesContainer = () => {
         <div className="self-stretch flex flex-row flex-wrap items-center justify-center py-0 px-2.5 gap-[32px]">
           <PropertyCard
             imgUrl="/property-image@2x.png"
+            name="92 Allium Place, Orlando FL"
+            price="590,632"
           />
           <PropertyCard
             imgUrl="/property-image1@2x.png"
+            name="92 Allium Place, Orlando FL"
+            price="590,632"
           />
           <PropertyCard
             imgUrl="/property-image2@2x.png"
+            name="92 Allium Place, Orlando FL"
+            price="590,632"
           />
           <PropertyCard
             imgUrl="/property-image3@2x.png"
+            name="92 Allium Place, Orlando FL"
+            price="590,632"
           />
         </div>
       </div>
