@@ -16,36 +16,16 @@ const RentPropertiesContainer = () => {
         </div>
         <div className="self-stretch flex flex-row flex-wrap items-center justify-center py-0 px-2.5 gap-[32px]">
           <PropertyCard
-            imageDimensions="/property-image@2x.png"
-            imageDimensionsText="/ellipse-1@2x.png"
-            propWidth="unset"
-            propFlex="1"
-            propMinWidth="355px"
-            propMaxWidth="400px"
+            imgUrl="/property-image@2x.png"
           />
           <PropertyCard
-            imageDimensions="/property-image1@2x.png"
-            imageDimensionsText="/ellipse-1@2x.png"
-            propWidth="unset"
-            propFlex="1"
-            propMinWidth="355px"
-            propMaxWidth="400px"
+            imgUrl="/property-image1@2x.png"
           />
           <PropertyCard
-            imageDimensions="/property-image2@2x.png"
-            imageDimensionsText="/ellipse-1@2x.png"
-            propWidth="unset"
-            propFlex="1"
-            propMinWidth="355px"
-            propMaxWidth="400px"
+            imgUrl="/property-image2@2x.png"
           />
           <PropertyCard
-            imageDimensions="/property-image3@2x.png"
-            imageDimensionsText="/ellipse-1@2x.png"
-            propWidth="unset"
-            propFlex="1"
-            propMinWidth="355px"
-            propMaxWidth="400px"
+            imgUrl="/property-image3@2x.png"
           />
         </div>
       </div>

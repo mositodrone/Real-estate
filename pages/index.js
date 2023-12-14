@@ -10,16 +10,22 @@ import Footer from "../components/footer";
 
 const LandingPage = () => {
   return (
-    <div className="relative bg-gray-white w-full h-[5096px] flex flex-col items-center justify-start">
-      <Header />
-      <Hero />
-      <AreaContainer />
-      <AreaFeatureContainer />
-      <RentPropertiesContainer />
-      <RentPropertiesForm />
-      <Contact />
-      <Footer propOverflow="unset" />
-    </div>
+    <>
+      <Head>
+        <title>Real Estate</title>
+        <meta name="description" content="Discover your perfect home"/>
+      </Head>
+      <div className="relative bg-gray-white w-full flex flex-col items-center justify-start">
+        <Header />
+        <Hero /> 
+        <AreaContainer />
+        <AreaFeatureContainer />
+        <RentPropertiesContainer />
+        <RentPropertiesForm />
+        <Contact />
+        <Footer propOverflow="unset" />
+      </div>
+    </>
   );
 };
 
